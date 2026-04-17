@@ -6,7 +6,7 @@ service cloud.firestore {
     // Leads: anyone can create (form submission), no one can read/update/delete from client
     match /leads/{leadId} {
       allow create: if
-        request.resource.data.keys().hasAll(['name', 'phone', 'email', 'service', 'message']) &&
+        request.resource.data.keys().hasAll(['name', 'phone', 'email', 'service', 'message', 'createdAt', 'status']) &&
         request.resource.data.name is string &&
         request.resource.data.name.size() >= 2 &&
         request.resource.data.name.size() <= 100 &&
@@ -18,7 +18,8 @@ service cloud.firestore {
         request.resource.data['service'].size() > 0 &&
         request.resource.data.message is string &&
         request.resource.data.message.size() >= 10 &&
-        request.resource.data.message.size() <= 1000;
+        request.resource.data.message.size() <= 1000 &&
+        request.resource.data.status == 'new';
 
       allow read, update, delete: if false; // Admin only via Firebase Console or Admin SDK
     }
