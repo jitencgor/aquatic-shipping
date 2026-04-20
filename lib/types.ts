@@ -19,7 +19,7 @@ export interface Service {
 
 export type ServiceType =
   | "Customs Clearance"
-  | "Inland Freight Forwarding"
+  | "International Freight Forwarding"
   | "Inland Transportation"
   | "Warehousing"
   | "Cargo Insurance"

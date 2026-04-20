@@ -29,7 +29,7 @@ const services = [
   },
   {
     id: "freight",
-    title: "Inland Freight Forwarding",
+    title: "International Freight Forwarding",
     subtitle: "Pan-India Coverage",
     description:
       "Strategic freight forwarding from Gandhidham to every corner of India. We coordinate multi-modal transport with precision timing and full cargo visibility.",

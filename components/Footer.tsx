@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const services = [
   "Customs Clearance",
-  "Inland Freight Forwarding",
+  "International Freight Forwarding",
   "Inland Transportation",
   "Warehousing",
   "Cargo Insurance",

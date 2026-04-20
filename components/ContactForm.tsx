@@ -10,7 +10,7 @@ import { leadSchema, type LeadFormData } from "@/lib/schemas";
 const SERVICE_OPTIONS = [
   "Customs Clearance (Import)",
   "Customs Clearance (Export)",
-  "Inland Freight Forwarding",
+  "International Freight Forwarding",
   "Inland Transportation",
   "Warehousing",
   "Cargo Insurance",
