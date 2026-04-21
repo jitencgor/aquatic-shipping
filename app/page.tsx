@@ -28,8 +28,8 @@ const mainServices = [
       </svg>
     ),
     title: "International Freight Forwarding",
-    desc: "End-to-end freight forwarding solutions connecting Gandhidham to all major ports and industrial hubs across India.",
-    features: ["Multi-modal Transport", "Real-time Tracking", "Consolidation", "Full Truck Load"],
+    desc: "International sea, air, and multi-modal freight forwarding from Gandhidham to global destinations with full cargo visibility.",
+    features: ["Sea & Air Freight", "Export Documentation", "Customs Clearance", "Cargo Tracking"],
   },
   {
     icon: (
