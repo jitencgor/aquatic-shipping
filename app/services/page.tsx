@@ -30,7 +30,7 @@ const services = [
   {
     id: "freight",
     title: "International Freight Forwarding",
-    subtitle: "Pan-India Coverage",
+    subtitle: "Global Coverage",
     description:
       "End-to-end international freight forwarding from Gandhidham to global destinations. We manage sea, air, and multi-modal shipments with precision documentation and full cargo visibility.",
     features: [
