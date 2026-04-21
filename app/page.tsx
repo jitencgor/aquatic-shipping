@@ -65,7 +65,7 @@ const additionalServices = [
 ];
 
 const trustPoints = [
-  { icon: "🚢", value: "500+", label: "Shipments / Year" },
+  { icon: "🚢", value: "2000+", label: "Shipments / Year" },
   { icon: "🤝", value: "200+", label: "Happy Clients" },
   { icon: "📍", value: "15+", label: "Years Experience" },
   { icon: "🌏", value: "All India", label: "Coverage" },

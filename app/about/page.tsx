@@ -53,7 +53,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-5">
               {[
                 { value: "15+", label: "Years in Business" },
-                { value: "500+", label: "Shipments per Year" },
+                { value: "2000+", label: "Shipments per Year" },
                 { value: "200+", label: "Satisfied Clients" },
                 { value: "48hr", label: "Avg. Clearance Time" },
               ].map((stat) => (
